@@ -1,0 +1,24 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+The diff function allowed me to see what was changed between the two versions of the file.
+Since the old version ran correctly and the new version didn’t, it means we changed something that was causing this bug. The diff function showed me exactly which lines were changed and thats how I found the bug.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+Anytime that I make changes in my program and those changes result in a bug, I can view older versions of that programs to help me understand what is causing the bug.
+Also if I tried something new with the program and I didn’t quite like the results, I could easily go back to an older version.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+Manually choosing when to create a commit allows there to be logical differences between different commits which would help us find bugs. On the downside you might have forgotten to save at a critical point. Having versions automatically saved is less relevant to programming because there will be no logical differences between different versions. Therefore it would be harder to spot bugs. On the upside you wouldn’t need to remember to save different versions.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Because some version control systems, like Google Docs, are made for documents that are independent of each other and therefore don't need to be saved together.
+Git on the other hand, is made for programming documents which are sometimes dependent on each other and therefore need to be saved together. 
+
+How can you use the commands git log and git diff to view the history of files?
+Git log will show me all the saved commits and what changed were made to that commit.
+Git diff will allow me to see the difference between two commits, this way I can spot exactly what has changed.
+
+How might using version control make you more confident to make changes that could break something?
+Version control will make me more confident by giving me the ability to go back at any point to a different version. Once I get the hang of it it will be easy to use and will make finding bugs cause by making changes to the code easy to find.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+I want to start using get in the continuation of the Front end nano degree
